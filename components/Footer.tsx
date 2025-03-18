@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="flex pb-9 pt-4 bg-[#F5F5F5]">
+    <div className="flex pb-9 pt-4 bg-[#F5F5F5] pl-4">
       <div>
         <p className="font-semibold text-lg">&copy; Kenyans in STEM Association - KISA</p>
       </div>
