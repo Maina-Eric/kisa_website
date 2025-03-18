@@ -26,6 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Kenyans in STEM Association</title>
+        <link rel="icon" href="/cropped-kisa-logo-oficiel.webp"/>
+        <meta name="decsription" content="Kenyans in STEM Association"/>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
