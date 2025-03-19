@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import React from 'react'
 
 function page() {
@@ -21,7 +20,7 @@ function page() {
         </div>
       </div>
       <div>
-        <img src="Future Looks Bright - KiSA 2024.png" className="pl-14 pr-7"/>
+        <img src="Future Looks Bright - KiSA 2024.png" className="pl-14 pr-7" alt="Future Looks Bright"/>
       </div>
     </div>
   )

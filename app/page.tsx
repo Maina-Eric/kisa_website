@@ -1,5 +1,4 @@
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,7 +11,7 @@ export default function Home() {
             className="text-4xl"
         />
         <div className="mt-6">
-            <img src="KiSA 2024 in Review.png"/>
+            <img src="KiSA 2024 in Review.png" alt="KiSA 2024 in Review"/>
             <p className="text-xl mt-3 font-semibold text-start">KiSA 2024 in Review</p>
         </div>
     </div>
