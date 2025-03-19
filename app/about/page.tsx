@@ -12,7 +12,7 @@ function page() {
           <p className="text-xl md:text-xl font-normal mb-4">
             Met for Lunch at the National NSBE Convention in Anaheim, CA.
           </p>
-          <p className="text-xl md:text-xl font-normal">Originally "Kenyans @NSBE"</p>
+          <p className="text-xl md:text-xl font-normal">Originally &ldquo;Kenyans @NSBE&rdquo;</p>
           <div>
             <Image
               src="/NSBE 1.jpeg"
@@ -56,7 +56,7 @@ function page() {
           </h1>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-xl md:text-xl font-normal">
-              ✅ Rebranded from "Kenyans @ NSBE" to "Kenyans in STEM Association"
+              ✅ Rebranded from &ldquo;Kenyans @ NSBE&rdquo; to &ldquo;Kenyans in STEM Association&rdquo;
             </div>
           </div>
           <div className="">
@@ -94,7 +94,7 @@ function page() {
   return (
     <div className='pt-10 pb-12'>
       <div className="font-serif pl-4 sm:pl-10 md:pl-20 lg:pl-40 flex flex-col sm:flex-row">
-        {/* Quick Facts Section */}
+        
         <div className='w-full sm:w-md'>
           <h1 className="text-xl sm:text-2xl md:text-3xl pt-3 font-semibold">Quick Facts</h1>
           <ul style={{ listStyleType: "disc" }} className="pl-4 sm:pl-6 md:pl-7 text-lg sm:text-xl md:text-2xl">
@@ -120,7 +120,7 @@ function page() {
           </ul>
         </div>
 
-        {/* Affiliated Organizations Section */}
+        
         <div className="pl-4 sm:pl-6 md:pl-10 mt-8 sm:mt-0">
           <h1 className="text-xl sm:text-2xl md:text-3xl pt-3 font-semibold">Affiliated Organizations:</h1>
           <ul style={{ listStyleType: "disc" }} className='text-lg sm:text-xl md:text-2xl underline pl-4 sm:pl-6 md:pl-7'>
