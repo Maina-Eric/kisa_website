@@ -101,4 +101,10 @@ export interface SlideData {
     },
 
   ];
+
+export const timelineData = [
+  {
+    
+  }
+]
   
