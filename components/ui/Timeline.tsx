@@ -23,12 +23,20 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     }
   }, [ref]);
 
+  
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ["start 10%", "end 50%"],
   });
 
-  const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
+//   const heightTransform = useTransform(scrollYProgress, [0, 1], [0, height]);
+    const heightTransform = useTransform(
+        scrollYProgress,
+        [0, 1],
+        [0, Math.min(height, ref.current?.offsetHeight || 0)]
+    );
+  
   const opacityTransform = useTransform(scrollYProgress, [0, 0.1], [0, 1]);
 
   return (
@@ -43,7 +51,7 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
         
       </div>
 
-      <div ref={ref} className="relative max-w-7xl mx-auto pb-20">
+      <div ref={ref} className="relative max-w-7xl mx-auto pb-20 overflow-hidden">
         {data.map((item, index) => (
           <div
             key={index}
