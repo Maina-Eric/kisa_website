@@ -92,7 +92,7 @@ function page() {
     },
   ];
   return (
-    <div className='pt-10 pb-12 h-full'>
+    <div className='pt-10 pb-12 h-auto'>
       <div className="font-serif pl-4 sm:pl-10 md:pl-20 lg:pl-40 flex flex-col sm:flex-row">
         
         <div className='w-full sm:w-md'>
