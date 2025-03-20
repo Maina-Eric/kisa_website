@@ -151,7 +151,7 @@ function page() {
 
       <Timeline data ={timelineData}/>
 
-      <Link href={"/gallery"}className="flex items-center justify-center px-6 py-1 mx-2 bg-black text-white rounded-md hover:bg-gray-800 text-xl font-serif h-11 w-48">Learn More</Link>
+      <Link href={"/gallery"} className="flex items-center justify-center px-6 py-1 mx-2 bg-black text-white rounded-md hover:bg-gray-800 text-xl font-serif h-11 w-48">Learn More</Link>
     </div>
   )
 }
