@@ -40,7 +40,7 @@ function page() {
 
       <div className="text-center italic leading-relaxed max-w-3xl mx-5 md:mx-10 mt-5">
         <h1 className="text-lg sm:text-xl md:text-2xl">
-          KiSA owes thanks to our current partners who have contributed to KiSA's growth whether by time, efforts, or insights. They are as follows:
+          KiSA owes thanks to our current partners who have contributed to KiSA&apos;s growth whether by time, efforts, or insights. They are as follows:
         </h1>
       </div>
     <div className='space-y-12 pt-12'>
@@ -80,7 +80,7 @@ function page() {
             Aramid II Consortium
           </h1>
           <p className='text-lg sm:text-xl md:text-2xl pt-4'>
-            The Aramid II international student's consortium (online) is a global gathering of college students, providing a platform to present innovative and scientific research topics.
+            The Aramid II international student&spos;s consortium (online) is a global gathering of college students, providing a platform to present innovative and scientific research topics.
           </p>
           <p className='text-lg sm:text-xl md:text-2xl pt-4'>
             A collaborative between universities in USA, Kenya, Greece, the Philippines, Indonesia, Uganda, and Nigeria.
