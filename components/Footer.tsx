@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="flex flex-col md:flex-row pb-9 pt-4 bg-[#F5F5F5] pl-4 font-serif items-center space-y-4 md:space-y-0">
+    <div className="flex flex-col md:flex-row pb-9 pt-4 bg-[#F5F5F5] pl-4 font-serif space-y-4 md:space-y-0">
       <div>
         <p className="font-semibold text-lg text-center md:text-left">&copy; Kenyans in STEM Association - KISA</p>
       </div>
